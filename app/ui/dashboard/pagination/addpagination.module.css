@@ -1,0 +1,30 @@
+.paginationContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 500px;
+  background-color: #073869;
+}
+
+.pageNumber {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.pageNumber:hover {
+  background-color: #e2e6ea;
+}
+
+.primary {
+  background-color: #0f62fe;
+  color: white;
+}
+
+.ghost {
+  background-color: transparent;
+  color: #0f62fe;
+}
