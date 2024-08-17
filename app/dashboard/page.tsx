@@ -3,6 +3,7 @@
 import React from 'react';
 import AddPagination from '../ui/dashboard/pagination/addpagination';
 import Search from '../ui/dashboard/search/addsearch';
+import styles from "../ui/dashboard.module.css";
 
 const Dashboard = () => {
   const totalItems = 100; 
@@ -17,7 +18,7 @@ const Dashboard = () => {
   };
 
   return (
-    <div>
+    <div className={styles.dasboard}>
       <Search onSearch={handleSearch} />
       <h1>Dashboard</h1>
       <AddPagination
